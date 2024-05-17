@@ -9,14 +9,17 @@ Three models were trained which are:
 - RandomForest
 - XGBOOST
 - Deep learning model
+- 
 the champion model was XGBOOST with F1-score 0.991 on the validation set , and 0.972 on the testing set.
 
 Business Understanding
+
 Guardian Banking Systems , a leading financial institution committed to providing secure and reliable services to its customers. The primary goal is to leverage machine learning techniques to develop an effective fraud detection system that can identify potentially fraudulent transactions in real-time.
 
 The objective of this project is to build a robust machine learning model capable of detecting fraudulent transactions accurately and efficiently. The model will analyze historical transaction data to identify patterns and indicators associated with fraudulent behavior
 
 Data Understanding
+
 The Credit Card Transactions Fraud Detection Dataset from kaggle by KARTIK SHENOY consisted of 1,852,394 rows and 23 features(Before Feature Engineering). The features included information on customers trips such as:
 
 trans_date_trans_time -----> transaction date and time
@@ -29,6 +32,7 @@ is_fraud -----> Target variable
 and more
 
 Modeling and Evaluation
+
 We trained three models which are:
 
 RandomForest
