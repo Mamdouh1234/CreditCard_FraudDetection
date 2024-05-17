@@ -66,13 +66,13 @@ The model Scored 0.972 on the unseen testing set which is great.
 
 ## Conclusion
 - model conclusions
-  RandomForest ,  XGBOOST and Deep learning were used for modeling , however XGBOOST scored higher than RandomForest and Deep learning model on the validation set.
-  XGBOOST scored really well on the unseen test set with f1-score 0.972 , so we might be confident in applying and deploying this model in fraud detection , however we may work on other feature engineering and tuning tasks to increase the model performance later on , but for now , it's great.
+  - RandomForest ,  XGBOOST and Deep learning were used for modeling , however XGBOOST scored higher than RandomForest and Deep learning model on the validation set.
+  - XGBOOST scored really well on the unseen test set with f1-score 0.972 , so we might be confident in applying and deploying this model in fraud detection , however we may work on other feature engineering and tuning tasks to increase the model performance later on , but for now , it's great.
 
 - Project conclusions:
-  Increase fraud detection systems in online shopping and grocery stores
-  verify persons holding credit cards before performing transactions , specially middle aged persons.
-  keep an eye on small transactions , as most of fraudlent transactions come from small amounts
+  - Increase fraud detection systems in online shopping and grocery stores
+  - verify persons holding credit cards before performing transactions , specially middle aged persons.
+  - keep an eye on small transactions , as most of fraudlent transactions come from small amounts
   
    
 
