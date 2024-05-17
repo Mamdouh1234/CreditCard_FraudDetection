@@ -50,7 +50,8 @@ considering accuracy measures , for each model , we output a confusion matrix an
   
 Considering the given Scenario:
 
-False positives: A false positive occurs when the model incorrectly predicts a transaction as fraudulent when it is actually legitimate..
+False positives: A false positive occurs when the model incorrectly predicts a transaction as fraudulent when it is actually legitimate.
+
 False negatives: A false negative occurs when the model fails to detect a fraudulent transaction and predicts it as legitimate.
 
 False positives can lead to inconvenience for customers if legitimate transactions are flagged as fraudulent. This may result in declined transactions, customer dissatisfaction, and potential loss of business, The cost associated with false positives includes potential customer attrition, increased customer service inquiries, and missed revenue opportunities.
