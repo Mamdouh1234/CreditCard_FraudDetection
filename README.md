@@ -1,7 +1,7 @@
 # CreditCard_FraudDetection
 A Machine learning predictive model for identifying fraudlent transactions
 
-Overview
+## Overview
 In today's digital landscape, financial institutions face significant challenges in mitigating fraudulent activities. The rise of online transactions and electronic payments has increased the complexity and frequency of fraudulent behavior. Detecting and preventing fraudulent transactions is crucial to safeguarding both the institution's assets and maintaining customer trust.
 The project purpose is to build a machine learning model for predicting and identifying fraudlent transactions.
 Three models were trained which are:
@@ -9,16 +9,16 @@ Three models were trained which are:
 - RandomForest
 - XGBOOST
 - Deep learning model
-- 
+
 the champion model was XGBOOST with F1-score 0.991 on the validation set , and 0.972 on the testing set.
 
-Business Understanding
+## Business Understanding
 
 Guardian Banking Systems , a leading financial institution committed to providing secure and reliable services to its customers. The primary goal is to leverage machine learning techniques to develop an effective fraud detection system that can identify potentially fraudulent transactions in real-time.
 
 The objective of this project is to build a robust machine learning model capable of detecting fraudulent transactions accurately and efficiently. The model will analyze historical transaction data to identify patterns and indicators associated with fraudulent behavior
 
-Data Understanding
+## Data Understanding
 
 The Credit Card Transactions Fraud Detection Dataset from kaggle by KARTIK SHENOY consisted of 1,852,394 rows and 23 features(Before Feature Engineering). The features included information on customers trips such as:
 
@@ -31,7 +31,7 @@ dob -------> person date of birth
 is_fraud -----> Target variable
 and more
 
-Modeling and Evaluation
+## Modeling and Evaluation
 
 We trained three models which are:
 
@@ -61,7 +61,7 @@ The champion model was XGBOOST with F1-score 0.991 on the validation set.
 
 The model Scored 0.972 on the unseen testing set which is great.
 
-Conclusion
+## Conclusion
 - model conclusions
   RandomForest ,  XGBOOST and Deep learning were used for modeling , however XGBOOST scored higher than RandomForest and Deep learning model on the validation set.
   XGBOOST scored really well on the unseen test set with f1-score 0.972 , so we might be confident in applying and deploying this model in fraud detection , however we may work on other feature engineering and tuning tasks to increase the model performance later on , but for now , it's great.
