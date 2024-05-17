@@ -35,25 +35,25 @@ and more
 
 We trained three models which are:
 
-RandomForest
-XGBOOST
-Deep learning model
+- RandomForest
+- XGBOOST
+- Deep learning model
 Cross Validation technique was applied , the dataset was splitted to 70% for training , 15% for validation and 15% for unseen testing data which will be used to evaluate our champion model.
 
 considering accuracy measures , for each model , we output a confusion matrix and four accuracy measures , they are
 
-Accuracy
-Precision
-Recall
-F1 Score
+- Accuracy
+- Precision
+- Recall
+- F1 Score
 Considering the given Scenario:
 
 False positives: A false positive occurs when the model incorrectly predicts a transaction as fraudulent when it is actually legitimate..
 False negatives: A false negative occurs when the model fails to detect a fraudulent transaction and predicts it as legitimate.
 
-False positives: False positives can lead to inconvenience for customers if legitimate transactions are flagged as fraudulent. This may result in declined transactions, customer dissatisfaction, and potential loss of business, The cost associated with false positives includes potential customer attrition, increased customer service inquiries, and missed revenue opportunities.
+False positives can lead to inconvenience for customers if legitimate transactions are flagged as fraudulent. This may result in declined transactions, customer dissatisfaction, and potential loss of business, The cost associated with false positives includes potential customer attrition, increased customer service inquiries, and missed revenue opportunities.
 
-False negatives: False negatives can be more detrimental as they allow fraudulent activities to go undetected, potentially leading to financial losses for the institution and erosion of customer trust, The cost associated with false negatives includes financial losses due to fraudulent transactions, regulatory penalties, and reputational damage.
+False negatives can be more detrimental as they allow fraudulent activities to go undetected, potentially leading to financial losses for the institution and erosion of customer trust, The cost associated with false negatives includes financial losses due to fraudulent transactions, regulatory penalties, and reputational damage.
 
 Both False positive and False Negative costs are high , so we will evaluate the model based on a balance between both of them , which is F1-score
 
