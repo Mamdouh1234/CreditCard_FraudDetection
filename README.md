@@ -6,9 +6,9 @@ In today's digital landscape, financial institutions face significant challenges
 The project purpose is to build a machine learning model for predicting and identifying fraudlent transactions.
 Three models were trained which are:
 
-- RandomForest
-- XGBOOST
-- Deep learning model
+- RandomForest.
+- XGBOOST.
+- Deep learning model.
 
 the champion model was XGBOOST with F1-score 0.991 on the validation set , and 0.972 on the testing set.
 
