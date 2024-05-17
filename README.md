@@ -47,6 +47,7 @@ considering accuracy measures , for each model , we output a confusion matrix an
 - Precision
 - Recall
 - F1 Score
+  
 Considering the given Scenario:
 
 False positives: A false positive occurs when the model incorrectly predicts a transaction as fraudulent when it is actually legitimate..
