@@ -22,13 +22,13 @@ The objective of this project is to build a robust machine learning model capabl
 
 The Credit Card Transactions Fraud Detection Dataset from kaggle by KARTIK SHENOY consisted of 1,852,394 rows and 23 features(Before Feature Engineering). The features included information on customers trips such as:
 
-trans_date_trans_time -----> transaction date and time
-merchant -----> merchant at which the transaction occured
-category -----> which category the transaction related to (home , shopping , travel etc.)               
-amt -----> the transaction ammount
-gender ------> person gender
-dob -------> person date of birth
-is_fraud -----> Target variable
+- trans_date_trans_time -----> transaction date and time
+- merchant -----> merchant at which the transaction occured
+- category -----> which category the transaction related to (home , shopping , travel etc.)               
+- amt -----> the transaction ammount
+- gender ------> person gender
+- dob -------> person date of birth
+- is_fraud -----> Target variable
 and more
 
 ## Modeling and Evaluation
