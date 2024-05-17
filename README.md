@@ -38,7 +38,7 @@ We trained three models which are:
 - RandomForest.
 - XGBOOST.
 - Deep learning model.
-- 
+  
 Cross Validation technique was applied , the dataset was splitted to 70% for training , 15% for validation and 15% for unseen testing data which will be used to evaluate our champion model.
 
 considering accuracy measures , for each model , we output a confusion matrix and four accuracy measures , they are
