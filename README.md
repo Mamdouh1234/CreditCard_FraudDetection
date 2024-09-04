@@ -20,7 +20,7 @@ The objective of this project is to build a robust machine learning model capabl
 
 ## Data Understanding
 
-The Credit Card Transactions Fraud Detection Dataset from kaggle by KARTIK SHENOY consisted of 1,852,394 rows and 23 features(Before Feature Engineering). The features included information on customers trips such as:
+The Credit Card Transactions Fraud Detection Dataset from kaggle by KARTIK SHENOY consisted of 1,852,394 rows and 23 features(Before Feature Engineering). The features included information on customers transactions such as:
 
 - trans_date_trans_time -----> transaction date and time
 - merchant -----> merchant at which the transaction occured
